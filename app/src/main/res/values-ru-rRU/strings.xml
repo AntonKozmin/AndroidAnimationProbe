@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2019 these are based on the 'technicalmiracle.blogspot.com'
+  ~ blog content. All rights reserved.
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Проверка анимации Андроид</string>
+    <string name="label_for_width"><b>Ширина контекста : </b></string>
+    <string name="label_for_height"><b>Высота контекста : </b></string>
+    <string name="label_for_scale_value"><b>Базовый размер : </b></string>
+    <string name="current_orientation_H"><b>Режим экрана :\n<i><BIG>альбомный</BIG></i></b></string>
+    <string name="current_orientation_V"><b>Режим экрана :\n<i><BIG>портретный</BIG></i> </b></string>
+    <string name="spring_physics_animation">\tСпринг анимация</string>
+    <string name="layout_transition">\tАнимация \nокружения</string>
+    <string name="arbitrary_animation">\tПроизвольная \nанимация</string>
+    <string name="drawable_graphics_animation">\tОкно запуска анимаций</string>
+    <string name="stiffness_value">Значение упругости</string>
+    <string name="damping_ratio">Затухание</string>
+    <string name="event1X">Коорд1 X :</string>
+    <string name="event1Y">Коорд1 Y :</string>
+    <string name="event2X">Коорд2 X :</string>
+    <string name="event2Y">Коорд2 Y :</string>
+    <string name="xVelocity">Скорость по Х :</string>
+    <string name="yVelocity">Скорость по Y :</string>
+    <string name="acceleration">Рывок :</string>
+    <string name="screen_placeholder">место на экране</string>
+</resources>

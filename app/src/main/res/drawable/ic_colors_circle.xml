@@ -1,0 +1,18 @@
+<!--~ Copyright 2019 these are based on the 'technicalmiracle.blogspot.com' ~ blog content. All rights reserved. ~ Licensed under the Apache License, Version 2.0 (the "License"); ~ you may not use this file except in compliance with the License. ~ You may obtain a copy of the License at ~ http://www.apache.org/licenses/LICENSE-2.0 ~ Unless required by applicable law or agreed to in writing, software ~ distributed under the License is distributed on an "AS IS" BASIS, ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. ~ See the License for the specific language governing permissions and ~ limitations under the License.-->
+<vector android:height="24dp"
+    android:viewportHeight="48"
+    android:viewportWidth="48"
+    android:width="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#729fcf" android:fillType="evenOdd" android:pathData="M24 23.938l18.175-10.493s2.803 3.892 2.803 10.322c0 6.498-2.67 10.664-2.67 10.664L24 23.938z" android:strokeWidth="1"/>
+    <path android:fillAlpha="0.8152174" android:pathData="M45 39a8 21 90 1 1-42 0 8 21 90 1 1 42 0z" android:strokeAlpha="0.8152174" android:strokeLineCap="round" android:strokeWidth="1"/>
+    <path android:fillColor="#cc0000" android:fillType="evenOdd" android:pathData="M24 23.794L5.806 13.3S3 17.192 3 23.623c0 6.498 2.673 10.664 2.673 10.664L24 23.794z" android:strokeWidth="1"/>
+    <path android:fillColor="#ad7fa8" android:fillType="evenOdd" android:pathData="M5.606 34.213L24 23.793v21.298c-8.09 0.032-14.652-4.206-18.394-10.878z" android:strokeWidth="1"/>
+    <path android:fillColor="#73d216" android:fillType="evenOdd" android:pathData="M42.438 13.695L24 23.938V3c8.109-0.032 14.686 4.135 18.438 10.695z" android:strokeWidth="1"/>
+    <path android:fillColor="#f57900" android:fillType="evenOdd" android:pathData="M5.418 13.695L24 23.938V3C15.828 2.968 9.199 7.135 5.418 13.695z" android:strokeWidth="1"/>
+    <path android:fillColor="#204a87" android:fillType="evenOdd" android:pathData="M42.376 34.213L24 23.793v21.298c8.081 0.032 14.637-4.206 18.376-10.878z" android:strokeWidth="1"/>
+    <path android:fillAlpha="0.32065213" android:pathData="M44.363 24a20.475 20.419 90 1 1-40.838 0 20.475 20.419 90 1 1 40.838 0z" android:strokeAlpha="0.32065213" android:strokeLineCap="round" android:strokeWidth="0.48907411"/>
+    <path android:fillAlpha="0.3641304" android:pathData="M43.475 24a19.475 19.475 132.684 1 1-38.95 0 19.475 19.475 132.684 1 1 38.95 0z" android:strokeAlpha="0.3641304" android:strokeColor="#ffffff" android:strokeLineCap="round" android:strokeWidth="0.51348567"/>
+    <path android:fillAlpha="0.6902174" android:pathData="M44 24a20 20 128.859 1 1-40 0 20 20 128.859 1 1 40 0z" android:strokeAlpha="0.6902174" android:strokeLineCap="round" android:strokeWidth="1"/>
+    <path android:fillAlpha="0.3423913" android:pathData="M34.527 14.167a7.487 10.709 90 1 1-21.418 0 7.487 10.709 90 1 1 21.418 0z" android:strokeAlpha="0.3423913" android:strokeLineCap="round" android:strokeWidth="1"/>
+</vector>

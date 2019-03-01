@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~ Copyright 2019 these are based on the 'technicalmiracle.blogspot.com' ~ blog content. All rights reserved. ~ Licensed under the Apache License, Version 2.0 (the "License"); ~ you may not use this file except in compliance with the License. ~ You may obtain a copy of the License at ~ http://www.apache.org/licenses/LICENSE-2.0 ~ Unless required by applicable law or agreed to in writing, software ~ distributed under the License is distributed on an "AS IS" BASIS, ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. ~ See the License for the specific language governing permissions and ~ limitations under the License.-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/ic_weather_clear_night_000" android:duration="154"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_010" android:duration="139"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_020" android:duration="126"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_030" android:duration="114"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_040" android:duration="102"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_050" android:duration="91"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_060" android:duration="81"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_070" android:duration="72"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_080" android:duration="63"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_090" android:duration="63"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_100" android:duration="72"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_110" android:duration="81"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_120" android:duration="91"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_130" android:duration="102"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_140" android:duration="114"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_150" android:duration="126"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_160" android:duration="139"/>
+    <item android:drawable="@drawable/ic_weather_clear_night_170" android:duration="154"/>
+</animation-list>
