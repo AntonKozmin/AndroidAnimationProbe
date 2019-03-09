@@ -558,12 +558,12 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
          *  The internal animation timer of the DrawView class.
          *
          *  A default delay value set to 6 ms.
-         *  - at 10 ms a graphical figure will be added if the
+         *  - at 6 ms a graphical figure will be added if the
          *  shapes total < 260.
-         *  - at 30 ms the graphical figures intended to change will replace by
+         *  - at 18 ms the graphical figures intended to change will replace by
          *  newly generated figures
-         *  - at 80 ms the background will redraw
-         *  - at 110 ms a counter will reset
+         *  - at 48 ms the background will redraw
+         *  - at 66 ms a counter will reset
          */
         private class BackgroundAnimationTimer implements Runnable {
 
@@ -576,7 +576,7 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
 
                 if (!stopTimer) {
 
-                    if (timerCounter == 1)// 10 ms
+                    if (timerCounter == 1)// 6 ms
                         if (fSize < 260) {
                             figures.add(new FigureToDraw(// a one newly shape add
                                     new BackGroundRectangle(
@@ -594,7 +594,7 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
                                             random.nextInt(256),
                                             random.nextInt(256))));
                         }
-                    if (timerCounter == 3) { // 30ms
+                    if (timerCounter == 3) { // 18 ms
                         if (indexesOfFiguresToReplace != null && !indexesOfFiguresToReplace.isEmpty()) {
                             // shapes replace
                             indexesOfFiguresToReplace.forEach(DrawView.this::replaceFigure);
@@ -602,7 +602,7 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
                         }
                         fSize = figures.size();
                     }
-                    if (timerCounter == 8) { // 80 ms
+                    if (timerCounter == 8) { // 48 ms
                         invalidate(); //will trigger the onDraw
                     }
                     if (timerCounter == 11) timerCounter = 0;
