@@ -289,7 +289,7 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
      *
      * This class extends the Android View class using it's onDraw function to generate
      * dynamical changing background. The background make up by the random generated shapes.
-     * The background refresh every 110 ms.
+     * The background refresh every 66 ms.
      * Each frame of background's animation create as the follower of the previous
      * and include the most of the previous shapes with changed geometrical dimensions.
      */
