@@ -1,5 +1,5 @@
 # AndroidAnimationProbe
-Different types Android animations will show in this application. 
+Different types Android animations are showing in this application. 
 The application consist several fragments to present each one. 
 
 For more information see this post :
