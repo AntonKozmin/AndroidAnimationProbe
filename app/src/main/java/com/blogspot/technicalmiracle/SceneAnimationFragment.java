@@ -65,7 +65,8 @@ import java.util.stream.Collectors;
  * When a scroll gesture is going the stroke draw on the screen.
  * Then a canvas do draw the gesture path include nodes. As a worm move.
  * A velocity and acceleration parameters of drawing define by this gesture.
- * When the animation has finished the generated figure will remove.
+ *
+ *
  * From the start point to end point will be add the onFling animation move
  * with parameters defined by the total path / total move time.
  */

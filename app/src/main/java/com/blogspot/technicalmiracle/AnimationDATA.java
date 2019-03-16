@@ -33,7 +33,7 @@ import android.view.WindowManager;
  */
 class AnimationDATA extends ViewModel {
 
-   // private static final String TAG = "AnimationDATA";
+    private static final String TAG = "AnimationDATA";
 
     /**
      * The values to save a state of last the scene animation condition.
@@ -207,7 +207,9 @@ class AnimationDATA extends ViewModel {
         if (identifier > 0) { // Status bar height (px)
             statusBarHeight = context.getResources().getDimensionPixelSize(identifier);
         }
+//        Log.d(TAG, "setStatusBarHeight: "+statusBarHeight);
     }
+
 
     /**
      * @param context apps context

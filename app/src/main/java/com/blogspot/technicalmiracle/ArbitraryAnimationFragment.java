@@ -37,8 +37,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.ThreadLocalRandom;
 
 
 /**
@@ -319,7 +319,6 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
 
         Handler handler = new Handler(Looper.getMainLooper());
         Paint paint = new Paint();
-        Random random = new Random();
 
         /**
          * The medium radius used to filter shapes.
@@ -539,19 +538,19 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
 
             figures.set(index, new FigureToDraw(
                     new BackGroundRectangle(
-                            random.nextInt((int) height),
-                            random.nextInt((int) height),
-                            random.nextInt((int) width),
-                            random.nextInt((int) width)),
+                            ThreadLocalRandom.current().nextInt((int) height),
+                            ThreadLocalRandom.current().nextInt((int) height),
+                            ThreadLocalRandom.current().nextInt((int) width),
+                            ThreadLocalRandom.current().nextInt((int) width)),
                     new BackGroundCircle(
-                            random.nextInt((int) width),
-                            random.nextInt((int) height),
-                            random.nextInt((int) (scaledSizeValue * 0.25))),
+                            ThreadLocalRandom.current().nextInt((int) width),
+                            ThreadLocalRandom.current().nextInt((int) height),
+                            ThreadLocalRandom.current().nextInt((int) (scaledSizeValue * 0.25))),
                     new BackGroundPaints(
-                            random.nextInt(256),
-                            random.nextInt(256),
-                            random.nextInt(256),
-                            random.nextInt(256))));
+                            ThreadLocalRandom.current().nextInt(256),
+                            ThreadLocalRandom.current().nextInt(256),
+                            ThreadLocalRandom.current().nextInt(256),
+                            ThreadLocalRandom.current().nextInt(256))));
         }
 
         /**
@@ -580,19 +579,19 @@ public class ArbitraryAnimationFragment extends android.app.Fragment {
                         if (fSize < 260) {
                             figures.add(new FigureToDraw(// a one newly shape add
                                     new BackGroundRectangle(
-                                            random.nextInt((int) height),
-                                            random.nextInt((int) height),
-                                            random.nextInt((int) width),
-                                            random.nextInt((int) width)),
+                                            ThreadLocalRandom.current().nextInt((int) height),
+                                            ThreadLocalRandom.current().nextInt((int) height),
+                                            ThreadLocalRandom.current().nextInt((int) width),
+                                            ThreadLocalRandom.current().nextInt((int) width)),
                                     new BackGroundCircle(
-                                            random.nextInt((int) width),
-                                            random.nextInt((int) height),
-                                            random.nextInt((int) (scaledSizeValue * 0.25))),
+                                            ThreadLocalRandom.current().nextInt((int) width),
+                                            ThreadLocalRandom.current().nextInt((int) height),
+                                            ThreadLocalRandom.current().nextInt((int) (scaledSizeValue * 0.25))),
                                     new BackGroundPaints(
-                                            random.nextInt(256),
-                                            random.nextInt(256),
-                                            random.nextInt(256),
-                                            random.nextInt(256))));
+                                            ThreadLocalRandom.current().nextInt(256),
+                                            ThreadLocalRandom.current().nextInt(256),
+                                            ThreadLocalRandom.current().nextInt(256),
+                                            ThreadLocalRandom.current().nextInt(256))));
                         }
                     if (timerCounter == 3) { // 18 ms
                         if (indexesOfFiguresToReplace != null && !indexesOfFiguresToReplace.isEmpty()) {
